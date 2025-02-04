@@ -1,0 +1,56 @@
+[
+  {
+    "Portfolio_id": 101,
+    "Photography_title": "Ray-Ban Meta smart glasses",
+    "Photography_image": "https://i.ibb.co.com/sVnW6RZ/ray-ban-meta-smart-glasses-Main.jpg",
+    "category": "Photography",
+    "price": 699.99,
+    "description": "High-performance smartphone with advanced features."
+  },
+  {
+    "Portfolio_id": 102,
+    "Photography_title": "Ray-Ban Meta smart glasses",
+    "Photography_image": "https://i.ibb.co.com/sVnW6RZ/ray-ban-meta-smart-glasses-Main.jpg",
+   "category": "Photography",
+    "price": 129.99,
+    "description": "Noise-canceling wireless earbuds with long battery life."
+  },
+  {
+    "Portfolio_id": 103,
+    "Branding_title": "Ray-Ban Meta smart glasses",
+    "Branding_image": "  https://i.ibb.co.com/sVnW6RZ/ray-ban-meta-smart-glasses-Main.jpg",
+     "category": "Branding",
+    "price": 1499.99,
+    "description": "High-end gaming laptop with powerful graphics."
+   
+  },
+  {
+    "Portfolio_id": 104,
+    "Branding_title": "Dell Leptop",
+    "Branding_image": "https://i.ibb.co.com/FbGSCD0/bangkokthailand-march-142016-dell-logo-260nw-391104334.webp",
+    "category": "Branding",
+    "description": "Ultra HD TV with smart features and vivid colors."
+  },
+  {
+    "Portfolio_id": 105,
+    "Design_title": "MackBook Air",
+    "Design_image": "https://i.ibb.co.com/wzfXFnP/hero-image-fill-size-672x378-v1728406722.jpg",
+    "category": "Design",
+    "description": "Smartwatch with health monitoring and notifications."
+  },
+  {
+    "Portfolio_id": 106,
+    "Design_title": "Samsung Galaxy S21 Ultra",
+    "Design_image": "https://i.ibb.co.com/LkSNZp6/Samsung-Galaxy-S21-Ultra-price-nepal.jpg",
+    "category": "Design",
+    "description": "Portable speaker with deep bass and clear sound."
+  }
+]
+
+
+
+
+
+
+
+

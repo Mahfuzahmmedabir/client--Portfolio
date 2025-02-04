@@ -1,0 +1,18 @@
+ [
+  {
+    "id": 1,
+    "category": "Design",
+    "slug": "Design"
+  },
+  {
+    "id": 2,
+    "category": "Branding",
+    "slug": "Branding"
+  },
+  {
+    "id": 3,
+    "category": "Photography",
+    "slug": "Photography"
+  }
+
+]
