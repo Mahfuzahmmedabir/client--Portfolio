@@ -1,16 +1,20 @@
-import SimpleParallax from 'simple-parallax-js';
+import { Helmet } from 'react-helmet-async';
 import aboutImg from '../assets/carlos-muza-hpjSkU2UYSU-unsplash.jpg';
-
+import useAOS from '../hooks/useAOS';
 const About = () => {
+  useAOS()
   return (
-    <div id="#about">
+    <div data-aos="fade-up" id="about">
+      <Helmet>
+        <title>Masum Ahmed || About me</title>
+      </Helmet>
+      
       <div className="flex gap-12 mt-10">
         {/* About img */}
         <div className="w-6/12">
-          <SimpleParallax orientation="right">
             <img src={aboutImg} alt="" />
-          </SimpleParallax>
         </div>
+
         {/* About text */}
         <div className="w-6/12 mt-5 rounded-none">
           <div>

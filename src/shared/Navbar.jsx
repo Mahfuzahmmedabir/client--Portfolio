@@ -1,8 +1,7 @@
 import { NavLink } from 'react-router-dom';
-// import '../index.css';
 const Navbars = () => {
   return (
-    <div className="mt-3">
+    <div data-aos="fade-up" className="mt-3 ">
       <div className="flex justify-between items-center">
         {/* logo */}
         <div>
@@ -14,16 +13,16 @@ const Navbars = () => {
         <div className="flex justify-center gap-10 items-center">
           <ul className="flex gap-7 ">
             <li>
-              <NavLink to={'/'}>Home</NavLink>
+              <a href={'/'}>Home</a>
             </li>
             <li>
-              <NavLink to={'/img'}>About</NavLink>
+              <a href={'#about'}>About</a>
             </li>
             <li>
-              <NavLink to={'/h'}>Projec</NavLink>
+              <a href={'#project'}>Project</a>
             </li>
             <li>
-              <NavLink to={'/aa'}>Conteat</NavLink>
+              <a href={'#conteat'}>Conteat</a>
             </li>
           </ul>
           <button className="border py-3 px-6 hover:bg-black hover:text-white font-semibold transition duration-300 ease-in-out ">

@@ -1,9 +1,14 @@
 import React from 'react';
 // import '../index.css';
 import banner from '../assets/ben-den-engelsen-YUu9UAcOKZ4-unsplash.jpg';
+import useAOS from '../hooks/useAOS';
+
 const Banner = () => {
+  useAOS()
   return (
-    <div className="flex justify-between  mt-10 rounded-md p-4">
+    <div data-aos="zoom-in"
+      className="flex justify-between  mt-10 rounded-md p-4"
+    >
       <div className="mx-auto items-center  py-48 ">
         <h2 className="text-5xl">Masum Ahmed</h2>
         <p className="w-96">
@@ -18,6 +23,7 @@ const Banner = () => {
         <img src={banner} alt="" />
       </div>
     </div>
+
   );
 };
 
