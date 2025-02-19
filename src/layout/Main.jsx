@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Footer from '../shared/Footer';
+// import Footer from '../shared/Footer';
 import Navbars from '../shared/Navbar';
 
 import { useEffect } from 'react';
@@ -17,7 +17,7 @@ const Main = () => {
     <div data-aos="fade-up">
       <Navbars></Navbars>
       <Outlet></Outlet>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 };
